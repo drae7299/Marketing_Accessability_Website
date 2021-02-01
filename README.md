@@ -1,4 +1,4 @@
-# Marketing_Accessability_Website
+# Marketing_Accessibility_Website
 
 Horiseon is a Marketing Consulting Company
 
