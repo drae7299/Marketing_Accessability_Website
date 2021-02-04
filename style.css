@@ -3,22 +3,22 @@
     padding: 0;
     margin: 0;
 }
-
-body {
-    background-color: #d9dcd6;
-}
-/*
-nav {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;  */
 /*Main header*/
-    .header {
+.header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
+
+
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row; 
+}
+
+
 /*Added additional class*/
 .header h1 {
     display: inline-block;
@@ -45,15 +45,6 @@ nav {
     display: inline-block;
     margin-left: 25px;
 }
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
 /* Main Hero image*/
 .hero {
     height: 800px;
@@ -62,6 +53,43 @@ p {
     background-image: url("./images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+body {
+    background-color: #d9dcd6;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*Added class*/
+.contentz1 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.contentz1 img {
+    max-height: 200px;
+}
+
+
+.contentz1 h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*Adusted class*/ 
+.contentz {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .float-left {
@@ -73,12 +101,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-/*Adusted class*/ 
-.contentz {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+
 /*Adusted class*/
 .benefitz {
     margin-right: 20px;
@@ -106,25 +129,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/*Added class*/
-.contentz1 {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.contentz1 img {
-    max-height: 200px;
-}
-
-
-.contentz1 h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 /*Footer*/
 .footer {
     padding: 30px;
